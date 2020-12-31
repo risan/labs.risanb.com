@@ -1,0 +1,15 @@
+body {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main, footer {
+  max-width: 1800px;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.chart {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 5rem;
+}

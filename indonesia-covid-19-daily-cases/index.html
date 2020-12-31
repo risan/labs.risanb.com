@@ -1,0 +1,40 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>COVID-19 Daily Cases in Indonesia</title>
+  <meta name="description" content="COVID-19 Daily Cases in Indonesia">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Visualization of COVID-19 cases in Indonesia using Vega-Lite.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://labs.risanb.com/indonesia-covid-19-daily-cases">
+  <meta property="og:image" content="https://labs.risanb.com/indonesia-covid-19-daily-cases/cover.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://labs.risanb.com/indonesia-covid-19-daily-cases/cover.png">
+  <meta name="twitter:title" content="COVID-19 Daily Cases in Indonesia">
+  <meta name="twitter:description" content="Visualization of COVID-19 cases in Indonesia using Vega-Lite.">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="/earth-icon.png">
+</head>
+<body>
+  <main>
+    <h1>COVID-19 Daily Cases in Indonesia</h1>
+    <p>
+      Data from <a href="https://coronavirus.jhu.edu/map.html">Johns Hopkins Coronavirus Resource Center</a>.
+    </p>
+    <div id="daily-cases" class="chart"></div>
+    <div id="cumulative-cases" class="chart"></div>
+    <div id="daily-deaths" class="chart"></div>
+    <div id="cumulative-deaths" class="chart"></div>
+  </main>
+  <footer>
+    <p>
+      Built by <a href="https://risanb.com">Risan Bagja</a>
+    </p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  <script src="./main.js" type="module"></script>
+</body>
+</html>
